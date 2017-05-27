@@ -50,13 +50,16 @@ A PNG and a text version of system topology will be automatically generated in t
 Example: CPU4 in htop corresponds to PU P#4 of generated image.
 
 
+
 ::: Customizing Panels :::
+
 htop supports customizable panels disposure. I highly recommend that you change the default disposure in order to expose more details in your analysis.
 You can add more panels or changing the order of the columns.
 Access if by pressing F2 key (fn + F2 for MacOSX users).
 
 
 ::: Finishing Monitoring & Cleaning tests :::
+
 You should press "q" to quit after finish monitoring as traditional top command.
 As you perform more tests, more dump files with thread dump information you'll have.
 There is also a clean_test.sh script you can execute to clean the desk.
