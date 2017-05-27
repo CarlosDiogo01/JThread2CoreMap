@@ -1,11 +1,3 @@
-      _ _______ _                        _ ___   _____               
-     | |__   __| |                      | |__ \ / ____|              
-     | |  | |  | |__  _ __ ___  __ _  __| |  ) | |     ___  _ __ ___ 
- _   | |  | |  | '_ \| '__/ _ \/ _` |/ _` | / /| |    / _ \| '__/ _ \
-| |__| |  | |  | | | | | |  __/ (_| | (_| |/ /_| |___| (_) | | |  __/
- \____/   |_|  |_| |_|_|  \___|\__,_|\__,_|____|\_____\___/|_|  \___|
-
-
 JThread2Core V1.0
 @author CarlosDiogo01
 
@@ -34,22 +26,21 @@ https://linux.die.net/man/1/lstopo
 
 
 ::: How to use it :::
+
 	1) Firstly, you need to run INSTALL_htop.sh to get htop. Just type:
 	   ./INSTALL_htop.sh
 	   The script will get everything in place for you (download the latest release, configure and install).
-	   If you have any trouble in the process you can get htop manually and compile it from source:
-		http://hisham.hm/htop/releases/
-
-	2) In INSTALL_htop.sh script you'll be able to choose if you want to install htop in your machine or just run directly the downloaded version. 
-	   The script will use the downloaded version but you can modify htop_path inside JThread2CoreMap.sh to specify the path to htop.
-	   By default the installed version will be in /usr/local
-
-	3) Open 2 different shell terminals - one to run your Java application and other to execute JThread2CoreMap.sh and start monitoring
-
-	4) Execute your Java app
-
-	5) Execute: ./JThread2CoreMap.sh in a different shell to monitor the app in 4)
-	   You should be running only one Java app at once but the script will alarm you if you have multiple Java programs running and you'll be good
+	   If you have any trouble in the process you can get htop manually and compile it from source: http://hisham.hm/htop/releases
+	
+	2) In INSTALL_htop.sh script you'll be able to choose if you want to install htop in your machine or just run directly the downloaded version. The script will use the downloaded version but you can modify htop_path inside JThread2CoreMap.sh to specify the path to htop. 
+	   By default the installed version will be in /usr/local. 
+	
+	3) Open two different shell terminals: one to run your Java application and other to execute JThread2CoreMap.sh and start monitoring.
+	
+	4) Execute your Java app.
+	
+	5) Execute: ./JThread2CoreMap.sh in a different shell to monitor the app in 4).
+	   You should be running only one Java app at once but the script will alarm you if you have multiple Java programs running and you'll be good.
 	   to choose the PID of the app you want to monitor.
 
 
