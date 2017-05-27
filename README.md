@@ -55,7 +55,8 @@ Example: CPU4 in htop corresponds to PU P#4 of generated image.
 
 htop supports customizable panels disposure. I highly recommend that you change the default disposure in order to expose more details in your analysis.
 You can add more panels or changing the order of the columns.
-Access if by pressing F2 key (fn + F2 for MacOSX users).
+Access it by pressing F2 key (fn + F2 for MacOSX users).
+
 
 
 ::: Finishing Monitoring & Cleaning tests :::
