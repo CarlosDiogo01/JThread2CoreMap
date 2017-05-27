@@ -1,4 +1,4 @@
-[JThread2Core]
+JThread2Core
 ====
 
 JThread2Core V1.0
@@ -33,7 +33,8 @@ How to use it
 	If you have any trouble in the process you can get htop manually and compile it from source: (http://hisham.hm/htop/releases)
 	
 	* In INSTALL_htop.sh script you'll be able to choose if you want to install htop in your machine or just run directly the downloaded version. 
-	The script will use the downloaded version but you can modify htop_path inside JThread2CoreMap.sh to specify the path to htop. By default the installed version will be in /usr/local. 
+	The script will use the downloaded version but you can modify htop_path inside JThread2CoreMap.sh to specify the path to htop. 
+	By default the installed version will be in /usr/local. 
 	
 	* Open two different shell terminals: one to run your Java application and other to execute JThread2CoreMap.sh and start monitoring.
 	
@@ -41,8 +42,8 @@ How to use it
 	
 	* Run: 
 		./JThread2CoreMap.sh 
-	in a different shell to monitor the app in 4).
-	You should be running only one Java app at once but the script will alarm you if you have multiple Java programs running and you'll be good to choose the PID of the app you want to monitor.
+	in a different shell to monitor the app in point 4.
+	You should be running only one Java app at once. However the script will alarm you if you have multiple Java programs running and you'll be able to choose the PID of the app you want to monitor.
 
 
 The Core numbering by htop is the same numbering you will get from lstopo picture.
