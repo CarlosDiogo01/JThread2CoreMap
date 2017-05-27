@@ -32,7 +32,8 @@ https://linux.die.net/man/1/lstopo
 	   The script will get everything in place for you (download the latest release, configure and install).
 	   If you have any trouble in the process you can get htop manually and compile it from source: http://hisham.hm/htop/releases
 	
-	2) In INSTALL_htop.sh script you'll be able to choose if you want to install htop in your machine or just run directly the downloaded version. The script will use the downloaded version but you can modify htop_path inside JThread2CoreMap.sh to specify the path to htop. 
+	2) In INSTALL_htop.sh script you'll be able to choose if you want to install htop in your machine or just run directly the downloaded version. 
+	   The script will use the downloaded version but you can modify htop_path inside JThread2CoreMap.sh to specify the path to htop. 
 	   By default the installed version will be in /usr/local. 
 	
 	3) Open two different shell terminals: one to run your Java application and other to execute JThread2CoreMap.sh and start monitoring.
