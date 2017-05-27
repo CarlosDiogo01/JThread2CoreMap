@@ -11,9 +11,9 @@ Since you don't have to install any external tools you're free to test in a clus
 
 The script uses:
 ------------
-	 `htop` - For showing a graphical representation of Core and Memory usage (http://hisham.hm/htop/index.php)
-	 `lstopo` - To print an image with processor architecture (https://linux.die.net/man/1/lstopo)
-	 `jstack` - Produce a Thread dump file by JVM in main script directory (should open with a text editor).
+	 htop - For showing a graphical representation of Core and Memory usage (http://hisham.hm/htop/index.php)
+	 lstopo - To print an image with processor architecture (https://linux.die.net/man/1/lstopo)
+	 jstack - Produce a Thread dump file by JVM in main script directory (should open with a text editor).
 
 
 Requirements
