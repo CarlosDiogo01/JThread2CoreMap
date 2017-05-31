@@ -5,7 +5,7 @@ JThread2Core V1.0
 by CarlosDiogo01
 
 JThread2Core is a simple shell script to show a graphical representation of core usage in a multicore processor while a Java Multithreaded application is running on the system.
-This tool can be usefull to test different affinity configurations and visualize how the threads are being mapped in hardware.
+This tool can be usefull to test different affinity configurations and visualize how the cores are being used.
 Since you don't have to install any external tools you're free to test in a cluster enviroment without root priveligies. 
 
 
